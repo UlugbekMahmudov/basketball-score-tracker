@@ -8,6 +8,7 @@ body {
     background-color: #1B244A;
     padding-bottom: 10px;
     max-width: 300px;
+    margin: auto;
 }
 
 #reset {
