@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    padding-bottom: 10px;
+    max-width: 300px;
+}
+
+#reset {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    left: -72px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+.score-box {
+    background-color: black;
+    width: 90px;
+    height: 90px;
+    border-radius: 3px;
+    color: #F94F6D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.big-score {
+    font-size: 50px;
+    font-weight: bold;;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+.add-score-box {
+    display: flex;
+    justify-content: space-between;
+}
+.add-score {
+    border: 1px solid white;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.green {
+    color: green;
+}
